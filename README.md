@@ -15,6 +15,10 @@
     * [History -Current](#historyCurrent)
     * [Downgrade Base](#downgradeBase)
 
+* [Comandos Sqlacodegen](#Sqlacodegen)
+    * [Sqlacodegen](#sqlacode)
+    * [Sqlacodegen DataClasses](#sqlacodegenDataclasses)
+
 <h1 id="comandos">Comandos:</h1>
 
 • <span id="init"> alembic init <NOME> -> Comando inicial para começar a montar as migrations.</span> <br>
@@ -62,3 +66,12 @@
 <p style="padding-left:5em;">alembic history --indicate-current <br>
 </p><br>
 
+<h1 id="Sqlacodegen">Comandos Sqlacodegen:</h1>
+
+• <span id="sqlacode"> sqlacodegen stringConnection > arquivo.py -> Comando parabuscar o banco de dados pela String Connection e salvar o base no arquivo python.</span> <br>
+<p style="padding-left:5em;">sqlacodegen stringConnection > arquivo.py <br>
+</p><br>
+
+• <span id="sqlacodegenDataclasses"> sqlacodegen --generator dataclasses stringConnection > arquivo.py -> Comando parabuscar o banco de dados pela String Connection e salvar o base com a model na ultima atualização do SQLAlchemy.</span><br>
+<p style="padding-left:5em;">sqlacodegen --generator dataclasses stringConnection > arquivo.py <br>
+</p><br>
