@@ -1,7 +1,7 @@
 <h1>Comandos Alembic:</h1>
 
 <!--ts-->
-* [Padrões de Commit](#comandos)
+* [Comandos basicos Alembic](#comandos)
     * [Init](#init)
     * [Revision](#revision)
     * [Revision AutoGenerate](#revision-autogen)
